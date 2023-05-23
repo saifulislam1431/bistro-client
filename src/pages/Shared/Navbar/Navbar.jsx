@@ -28,7 +28,7 @@ const Navbar = () => {
     </li>
   </>
   return (
-    <div className="navbar bg-black bg-opacity-50">
+    <div className="navbar bg-black bg-opacity-50 fixed z-10 max-w-screen-xl">
       <div className='navbar-start lg:hidden'>
       <Link to="/">
           <p className='text-white brandTitle'><span className='font-black'>BISTRO BOSS</span><br /> <span className='tracking-widest'>Restaurant</span></p>
