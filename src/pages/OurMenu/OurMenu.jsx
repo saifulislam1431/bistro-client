@@ -4,6 +4,7 @@ import banner from "../../assets/menu/banner3.jpg"
 import { Helmet } from 'react-helmet-async';
 import Offered from './Offered/Offered';
 import Pizzas from './Pizzas/Pizzas';
+import Salad from './Salad/Salad';
 
 const OurMenu = () => {
     return (
@@ -19,6 +20,7 @@ const OurMenu = () => {
             </PageBanner>
             <Offered />
             <Pizzas />
+            <Salad />
         </section>
     );
 };
