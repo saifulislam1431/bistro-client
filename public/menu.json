@@ -342,22 +342,175 @@
         "recipeName": "Mushroom Masala",
         "cookingMethod": "1. Heat oil in a pan and add cumin seeds. When they start to splutter, add onion and sauté until golden brown.  2. Add garlic, ginger and green chilies, and sauté for a minute.  3. Add coriander powder, turmeric powder and garam masala powder, and sauté for a minute.  4. Add tomato puree and water, and mix well.  5. Add sliced mushrooms and salt to taste. Mix well, cover and cook on low heat for 10-12 minutes, or until the mushrooms are cooked.  6. Add cream and mix well. Cook for another minute.  7. Garnish with fresh coriander leaves and serve hot with rice or naan.",
         "rating": 4.8
+    },
+    {
+        "_id":31,
+        "price" : 10,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://gimmesomeoven.com/wp-content/uploads/2019/04/Everyday-Mediterranean-Greek-Salad-Recipe-1.jpg",
+        "recipeName": "Mediterranean Salad",
+        "cookingMethod": "A refreshing mix of crisp greens, tomatoes, cucumbers, olives, feta cheese, and a tangy vinaigrette dressing.",
+        "rating": 4.8
+    },
+    {
+        "_id":32,
+        "price" : 12,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://www.herwholesomekitchen.com/wp-content/uploads/2021/02/cobbsaladrecipe-1.jpg",
+        "recipeName": "Cobb Salad",
+        "cookingMethod": " A classic American salad featuring mixed greens, grilled chicken, bacon, hard-boiled eggs, avocado, tomatoes, and blue cheese, typically served with a creamy dressing.",
+        "rating": 4.8
+    },
+    {
+        "_id":33,
+        "price" : 14,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://www.thespruceeats.com/thmb/2pjgFA7_nbZtlXr68BECvf6fO48=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caprese-salad-tomato-salad-2217097-hero-03-75a0b89b30aa4a52b10fe4fdd9abfeb5.jpg",
+        "recipeName": "Caprese Salad",
+        "cookingMethod": "A simple and elegant Italian salad made with fresh mozzarella cheese, tomatoes, and basil leaves, drizzled with olive oil and balsamic glaze.Asian Slaw Salad: A vibrant and crunchy salad with shredded cabbage, carrots, bell peppers, scallions, and cilantro, dressed with a tangy soy-based dressing",
+        "rating": 4.8
+    },
+    {
+        "_id":34,
+        "price" : 12,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://thekitchengirl.com/wp-content/uploads/asian-slaw-recipe-A_31-2.jpg",
+        "recipeName": "Asian Slaw Salad",
+        "cookingMethod": "A vibrant and crunchy salad with shredded cabbage, carrots, bell peppers, scallions, and cilantro, dressed with a tangy soy-based dressing.",
+        "rating": 4.8
+    },
+    {
+        "_id":35,
+        "price" : 13,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://cookieandkate.com/images/2017/08/best-quinoa-salad-recipe-3.jpg",
+        "recipeName": "Quinoa Salad",
+        "cookingMethod": "A nutritious salad featuring cooked quinoa mixed with colorful vegetables such as bell peppers, cucumbers, cherry tomatoes, and herbs, tossed in a zesty lemon vinaigrette.",
+        "rating": 4.8
+    },
+    {
+        "_id":36,
+        "price" : 16,
+        "category" : "salad",
+        "chefId": 6,
+        "recipeImg": "https://www.connoisseurusveg.com/wp-content/uploads/2022/08/vegan-waldorf-salad-sq-1.jpg",
+        "recipeName": "Waldorf Salad",
+        "cookingMethod": "A classic fruit and nut salad consisting of crisp apples, celery, grapes, and walnuts, dressed with a creamy mayonnaise-based dressing.",
+        "rating": 4.8
+    },
+    {
+        "_id":37,
+        "price" : 20,
+        "category" : "pizza",
+        "chefId": 6,
+        "recipeImg": "https://cookieandkate.com/images/2021/07/classic-margherita-pizza.jpg",
+        "recipeName": "Margherita Pizza",
+        "cookingMethod": "A classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. Simple yet delicious.",
+        "rating": 4.8
+    },
+    {
+        "_id":38,
+        "price" : 18,
+        "category" : "pizza",
+        "chefId": 6,
+        "recipeImg": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60",
+        "recipeName": "Pepperoni Pizza",
+        "cookingMethod": "A classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. Simple yet delicious.",
+        "rating": 4.8
+    },
+    {
+        "_id":39,
+        "price" : 20,
+        "category" : "pizza",
+        "chefId": 6,
+        "recipeImg": "https://www.jessicagavin.com/wp-content/uploads/2020/07/hawaiian-pizza-16-1200.jpg",
+        "recipeName": "Hawaiian Pizza",
+        "cookingMethod": "A controversial but beloved pizza variety, it features a combination of ham and pineapple as toppings, along with tomato sauce and cheese. It offers a unique blend of sweet and savory flavors.",
+        "rating": 4.8
+    },
+    {
+        "_id":40,
+        "price" : 22,
+        "category" : "pizza",
+        "chefId": 6,
+        "recipeImg": "https://www.budgetbytes.com/wp-content/uploads/2020/06/BBQ-Chicken-Pizza-one-slice.jpg",
+        "recipeName": "BBQ Chicken Pizza",
+        "cookingMethod": "This pizza variation includes tangy barbecue sauce as the base, topped with cooked chicken, red onions, cilantro, and a mix of mozzarella and cheddar cheese. It's a flavorful twist on traditional pizza.",
+        "rating": 4.8
+    },
+    {
+        "_id":41,
+        "price" : 20,
+        "category" : "pizza",
+        "chefId": 6,
+        "recipeImg": "https://www.thespruceeats.com/thmb/lmDJraajDXMJ9izsIfzNt79GrSs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pizzasupremehoriz-1ccfa0b1732b4c128427d19ae02a422b.jpg",
+        "recipeName": "Supreme Pizza",
+        "cookingMethod": "A loaded pizza with a variety of toppings, typically including pepperoni, sausage, bell peppers, onions, olives, and mushrooms. It's a great option for those who enjoy a little bit of everything.",
+        "rating": 4.8
+    },
+    {
+        "_id":42,
+        "price" : 10,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://www.inspiredtaste.net/wp-content/uploads/2022/01/Creamy-Chicken-Noodle-Soup-3-1200.jpg",
+        "recipeName": "Chicken Noodle Soup",
+        "cookingMethod": "A comforting and classic soup made with chicken broth, tender chicken pieces, egg noodles, carrots, celery, and aromatic herbs. It's a go-to choice for warming up on chilly days or when feeling under the weather.",
+        "rating": 4.3
+    },
+    {
+        "_id":43,
+        "price" : 12,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://natashaskitchen.com/wp-content/uploads/2021/08/Tomato-Soup-Recipe-SQ.jpg",
+        "recipeName": "Tomato Soup",
+        "cookingMethod": "A smooth and creamy soup made with ripe tomatoes, onions, garlic, and herbs. It's often enjoyed with a grilled cheese sandwich for a satisfying meal.",
+        "rating": 4.5
+    },
+    {
+        "_id":44,
+        "price" : 15,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2018/09/minestrone-soup-sq-012.jpg",
+        "recipeName": "Minestrone Soup",
+        "cookingMethod": "An Italian vegetable soup packed with a variety of vegetables such as beans, carrots, celery, zucchini, tomatoes, and pasta or rice. It's hearty, nutritious, and full of flavor.",
+        "rating": 4.3
+    },
+    {
+        "_id":45,
+        "price" : 18,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://www.howtocook.recipes/wp-content/uploads/2022/02/Clam-chowder-recipe-500x375.jpg",
+        "recipeName": "Clam Chowder",
+        "cookingMethod": "A creamy and indulgent soup made with clams, potatoes, onions, celery, and bacon. It's particularly popular in coastal regions and is often served with crusty bread.",
+        "rating": 4.3
+    },
+    {
+        "_id":46,
+        "price" : 16,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://www.veggiessavetheday.com/wp-content/uploads/2022/07/Instant-Pot-Lentil-Soup-FI-1200.jpg",
+        "recipeName": "Lentil Soup",
+        "cookingMethod": "A hearty and nutritious soup made with lentils, vegetables, and spices. It's a great option for vegetarians and vegans, as lentils provide a good source of protein and fiber.",
+        "rating": 4.3
+    },
+    {
+        "_id":47,
+        "price" : 20,
+        "category" : "soup",
+        "chefId": 6,
+        "recipeImg": "https://www.budgetbytes.com/wp-content/uploads/2020/11/French-Onion-Soup-bowl.jpg",
+        "recipeName": "French Onion Soup",
+        "cookingMethod": " A rich and flavorful soup featuring caramelized onions, beef broth, and topped with a layer of melted cheese and toasted bread. It's a popular choice for its robust taste and gooey cheese topping.",
+        "rating": 4.8
     }
-    
-      
-      
-      
-      
-     
-     
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
 ]
