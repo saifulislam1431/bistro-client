@@ -512,5 +512,55 @@
         "recipeName": "French Onion Soup",
         "cookingMethod": " A rich and flavorful soup featuring caramelized onions, beef broth, and topped with a layer of melted cheese and toasted bread. It's a popular choice for its robust taste and gooey cheese topping.",
         "rating": 4.8
+    },
+    {
+        "_id":48,
+        "price" : 20,
+        "category" : "offered",
+        "chefId": 6,
+        "recipeImg": "https://www.budgetbytes.com/wp-content/uploads/2020/11/French-Onion-Soup-bowl.jpg",
+        "recipeName": "French Onion Soup",
+        "cookingMethod": " A rich and flavorful soup featuring caramelized onions, beef broth, and topped with a layer of melted cheese and toasted bread. It's a popular choice for its robust taste and gooey cheese topping.",
+        "rating": 4.8
+    },
+    {
+      "_id": 49,
+      "price" : 14,
+      "category" : "offered",
+      "chefId": 2,
+      "recipeImg": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/3/0/FNK_the-best-chicken-tikka-masala_H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1567523604572.jpeg",
+      "recipeName": "Chicken Tikka Masala",
+      "cookingMethod": "1. Marinate the chicken cubes in yogurt, ginger paste, garlic paste, cumin powder, coriander powder, turmeric powder, garam masala, red chilli powder, and salt. Refrigerate for 2-3 hours.  2. Preheat the oven to 180°C.  3. Skewer the marinated chicken cubes and place them on a baking tray.  4. Bake for 15-20 minutes, until the chicken is cooked through.  5. In a pan, heat the butter and add the baked chicken cubes. Cook for 5-10 minutes, until the chicken is coated with the masala.  6. Serve hot with naan or rice.",
+      "rating": 4.6
+    },
+    {
+        "_id": 50,
+        "price" : 16,
+        "category" : "offered",
+        "chefId": 1,
+        "recipeImg": "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UGFsYWslMjBQYW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
+        "recipeName": "Palak Paneer",
+        "cookingMethod": "1. Blanch the spinach and make a puree. 2. Heat oil in a pan and add cumin seeds. 3. Add onions and sauté until they turn golden brown. 4. Add ginger and garlic paste and cook for 1 minute. 5. Add tomatoes and cook until they are soft. 6. Add coriander powder, garam masala, and salt. Cook for 2-3 minutes. 7. Add paneer and spinach puree. Cook for 5-7 minutes. 8. Serve hot with naan or rice.",
+        "rating": 4.8
+      },
+      {
+          "_id":51,
+          "price" : 20,
+          "category" : "offered",
+          "chefId": 6,
+          "recipeImg": "https://www.thespruceeats.com/thmb/lmDJraajDXMJ9izsIfzNt79GrSs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pizzasupremehoriz-1ccfa0b1732b4c128427d19ae02a422b.jpg",
+          "recipeName": "Supreme Pizza",
+          "cookingMethod": "A loaded pizza with a variety of toppings, typically including pepperoni, sausage, bell peppers, onions, olives, and mushrooms. It's a great option for those who enjoy a little bit of everything.",
+          "rating": 4.8
+      },
+      {
+        "_id":52,
+        "price" : 12,
+        "category" : "offered",
+        "chefId": 6,
+        "recipeImg": "https://www.herwholesomekitchen.com/wp-content/uploads/2021/02/cobbsaladrecipe-1.jpg",
+        "recipeName": "Cobb Salad",
+        "cookingMethod": " A classic American salad featuring mixed greens, grilled chicken, bacon, hard-boiled eggs, avocado, tomatoes, and blue cheese, typically served with a creamy dressing.",
+        "rating": 4.8
     }
 ]
