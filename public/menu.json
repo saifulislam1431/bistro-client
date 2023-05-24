@@ -6,7 +6,6 @@
         "chefId": 1,
         "recipeImg": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QnV0dGVyJTIwQ2hpY2tlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
         "recipeName": "Butter Chicken",
-        "ingredients": ["500g chicken", "2 tbsp butter", "1 onion, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "1 cup tomato puree", "1 cup cream", "2 tsp red chilli powder", "1 tsp garam masala", "salt to taste"],
         "cookingMethod": "1. Heat the butter in a pan and sauté the onions until golden brown. 2. Add ginger and garlic paste and cook for 1 minute. 3. Add tomato puree, red chilli powder, garam masala, and salt. Cook for 2-3 minutes. 4. Add the chicken pieces and cook until they are browned on all sides. 5. Add water and let it cook on low heat for 20-25 minutes. 6. Add cream and cook for another 5 minutes. 7. Serve hot with naan or rice.",
         "rating": 4.5
       },
@@ -17,7 +16,6 @@
         "chefId": 1,
         "recipeImg": "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UGFsYWslMjBQYW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
         "recipeName": "Palak Paneer",
-        "ingredients": ["200g paneer", "1 bunch spinach", "1 onion, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "1 tomato, chopped", "1 tsp cumin seeds", "1 tsp coriander powder", "1 tsp garam masala", "salt to taste"],
         "cookingMethod": "1. Blanch the spinach and make a puree. 2. Heat oil in a pan and add cumin seeds. 3. Add onions and sauté until they turn golden brown. 4. Add ginger and garlic paste and cook for 1 minute. 5. Add tomatoes and cook until they are soft. 6. Add coriander powder, garam masala, and salt. Cook for 2-3 minutes. 7. Add paneer and spinach puree. Cook for 5-7 minutes. 8. Serve hot with naan or rice.",
         "rating": 4.8
       },
@@ -28,7 +26,6 @@
         "chefId": 1,
         "recipeImg": "https://en-media.thebetterindia.com/uploads/2022/08/294156779_1082267416022212_8006411537588067133_n-1_11zon-1660981126.jpg",
         "recipeName": "Chole Bhature",
-        "ingredients": ["2 cups chickpeas", "1 onion, chopped", "1 tomato, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "1 tsp cumin seeds", "1 tsp coriander powder", "1 tsp garam masala", "salt to taste"],
         "cookingMethod": "1. Soak the chickpeas overnight and pressure cook until they are soft. 2. Heat oil in a pan and add cumin seeds. 3. Add onions and sauté until they turn golden brown. 4. Add ginger and garlic paste and cook for 1 minute. 5. Add tomatoes and cook until they are soft. 6. Add coriander powder, garam masala, and salt. Cook for 2-3 minutes. 7. Add chickpeas and cook for 10-12 minutes. 8. Serve hot with bhature.",
         "rating": 4.6
       },
@@ -39,7 +36,6 @@
         "chefId": 1,
         "recipeImg": "https://static.toiimg.com/thumb/53192600.cms?imgsize=418831&width=800&height=800",
         "recipeName": "Rogan Josh",
-        "ingredients": ["500g lamb", "1 onion, chopped", "1 tomato, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "2 tsp red chilli powder", "1 tsp turmeric powder", "1 tsp cumin powder", "1 tsp coriander powder", "1 tsp garam masala", "salt to taste"],
         "cookingMethod": "1. Heat oil in a pan and sauté the onions until golden brown. 2. Add ginger and garlic paste and cook for 1 minute. 3. Add tomato, red chilli powder, turmeric powder, cumin powder, coriander powder, and salt. Cook for 2-3 minutes. 4. Add lamb and cook until browned on all sides. 5. Add water and let it cook on low heat for 30-40 minutes. 6. Add garam masala and cook for another 5 minutes. 7. Serve hot with rice or naan.",
         "rating": 4.7
       },
@@ -50,7 +46,6 @@
         "chefId": 1,
         "recipeImg": "https://images.unsplash.com/photo-1630851840633-f96999247032?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "recipeName": "Chicken Biryani",
-        "ingredients": ["500g chicken", "2 cups basmati rice", "1 onion, sliced", "1 tomato, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "1 tsp red chilli powder", "1 tsp turmeric powder", "1 tsp cumin powder", "1 tsp coriander powder", "2-3 bay leaves", "4-5 cloves", "4-5 green cardamom pods", "2-3 cinnamon sticks", "salt to taste"],
         "cookingMethod": "1. Soak the rice for 30 minutes and drain. 2. Heat oil in a pan and add bay leaves, cloves, cardamom, and cinnamon. Sauté for 1 minute. 3. Add onions and sauté until golden brown. 4. Add ginger and garlic paste and cook for 1 minute. 5. Add tomatoes and cook until they are soft. 6. Add red chilli powder, turmeric powder, cumin powder, coriander powder, and salt. Cook for 2-3 minutes. 7. Add chicken and cook until it is browned on all sides. 8. Add the soaked rice and water. Cook on low heat for 20-25 minutes. 9. Serve hot with raita and papad.",
         "rating": 4.9
       },
@@ -61,7 +56,6 @@
         "chefId": 2,
         "recipeImg": "https://www.keepingthepeas.com/wp-content/uploads/2021/08/punjabi-chole-4-500x375.jpg",
         "recipeName": "Chana Masala",
-        "ingredients": ["1 can of chickpeas", "1 onion, chopped", "1 tomato, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "2 tsp cumin powder", "1 tsp coriander powder", "1 tsp garam masala", "1 tsp turmeric powder", "salt to taste"],
         "cookingMethod": "1. Heat oil in a pan and sauté the onions until golden brown. 2. Add ginger and garlic paste and cook for 1 minute. 3. Add tomato, cumin powder, coriander powder, turmeric powder, and salt. Cook for 2-3 minutes. 4. Add chickpeas and cook for another 5-7 minutes. 5. Add garam masala and cook for another minute. 6. Serve hot with rice or naan.",
         "rating": 4.5
       },
@@ -72,7 +66,6 @@
         "chefId": 2,
         "recipeImg": "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UGFsYWslMjBQYW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
         "recipeName": "Palak Paneer",
-        "ingredients": ["200g paneer", "1 bunch of spinach, chopped", "1 onion, chopped", "1 tomato, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "2 tsp cumin powder", "1 tsp coriander powder", "1 tsp garam masala", "1 tsp turmeric powder", "salt to taste"],
         "cookingMethod": "1. Blanch the spinach in boiling water for 2-3 minutes. 2. Drain and puree the spinach in a blender. 3. Heat oil in a pan and sauté the onions until golden brown. 4. Add ginger and garlic paste and cook for 1 minute. 5. Add tomato, cumin powder, coriander powder, turmeric powder, and salt. Cook for 2-3 minutes. 6. Add paneer and cook for 3-4 minutes. 7. Add spinach puree and cook for another 5-7 minutes. 8. Add garam masala and cook for another minute. 9. Serve hot with rice or naan.",
         "rating": 4.8
       },
@@ -83,7 +76,6 @@
         "chefId": 2,
         "recipeImg": "https://www.palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg",
         "recipeName": "Masala Dosa",
-        "ingredients": ["1 cup rice", "1/2 cup urad dal", "1/2 tsp fenugreek seeds", "1/2 cup boiled potatoes", "1 onion, chopped", "2 green chillies, chopped", "1/2 tsp mustard seeds", "1/2 tsp cumin seeds", "A pinch of asafoetida", "Salt to taste", "Oil for cooking"],
         "cookingMethod": "1. Soak the rice, urad dal and fenugreek seeds separately for 5-6 hours.  2. Grind the soaked ingredients into a fine batter and let it ferment overnight.  3. In a separate pan, saute the chopped onions, green chillies, mustard seeds, cumin seeds, and asafoetida in oil.  4. Add boiled potatoes to the mixture and cook for 5-10 minutes.  5. Heat a non-stick pan and pour a ladle full of the batter onto it. Spread it in a circular motion to make a thin dosa.  6. Add the potato mixture to one side of the dosa and fold it over.  7. Serve hot with coconut chutney and sambar.",
         "rating": 4.5
       },
@@ -94,18 +86,16 @@
         "chefId": 2,
         "recipeImg": "https://www.cookwithmanali.com/wp-content/uploads/2019/05/Paneer-Butter-Masala.jpg",
         "recipeName": "Paneer Butter Masala",
-        "ingredients": ["200g paneer", "2 tomatoes, chopped", "1 onion, chopped", "1 tbsp ginger paste", "1 tbsp garlic paste", "1 tsp cumin seeds", "1 tsp red chilli powder", "1 tsp coriander powder", "1/2 tsp garam masala", "2 tbsp butter", "Salt to taste", "Water as required"],
         "cookingMethod": "1. In a pan, heat 1 tbsp butter and add cumin seeds.  2. Add chopped onions and saute until they turn golden brown.  3. Add ginger paste, garlic paste and chopped tomatoes. Cook until the tomatoes are soft.  4. Add red chilli powder, coriander powder, garam masala and salt. Mix well and cook for a minute.  5. Blend the mixture in a blender to make a smooth paste.  6. In the same pan, heat the remaining butter and add the blended mixture.  7. Add water to get the desired consistency.  8. Add the paneer cubes and cook for 5-10 minutes.  9. Garnish with fresh cream and serve hot with naan or rice.",
         "rating": 4.8
       },
       {
         "_id": 10,
         "price" : 14,
-        "category" : "mainCourse",
+        "category" : "recommended",
         "chefId": 2,
         "recipeImg": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/3/0/FNK_the-best-chicken-tikka-masala_H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1567523604572.jpeg",
         "recipeName": "Chicken Tikka Masala",
-        "ingredients": ["500g boneless chicken, cut into cubes", "1 cup yogurt", "2 tbsp ginger paste", "2 tbsp garlic paste", "1 tsp cumin powder", "1 tsp coriander powder", "1 tsp turmeric powder", "1 tsp garam masala", "1 tsp red chilli powder", "2 tbsp butter", "Salt to taste"],
         "cookingMethod": "1. Marinate the chicken cubes in yogurt, ginger paste, garlic paste, cumin powder, coriander powder, turmeric powder, garam masala, red chilli powder, and salt. Refrigerate for 2-3 hours.  2. Preheat the oven to 180°C.  3. Skewer the marinated chicken cubes and place them on a baking tray.  4. Bake for 15-20 minutes, until the chicken is cooked through.  5. In a pan, heat the butter and add the baked chicken cubes. Cook for 5-10 minutes, until the chicken is coated with the masala.  6. Serve hot with naan or rice.",
         "rating": 4.6
       },
@@ -116,7 +106,6 @@
         "chefId": 3,
         "recipeImg": "https://carameltintedlife.com/wp-content/uploads/2021/09/paneer-pizza-recipe-1-2.jpg",
         "recipeName": "Paneer Tikka Pizza",
-        "ingredients": ["1 pizza base", "1/2 cup tomato sauce", "1 cup mozzarella cheese, grated", "1/2 cup paneer cubes", "1/2 cup bell peppers, chopped", "1 onion, chopped", "1 tsp ginger paste", "1 tsp garlic paste", "1 tsp red chilli powder", "1 tsp cumin powder", "1 tsp coriander powder", "1 tsp garam masala", "Salt to taste", "Oil for cooking"],
         "cookingMethod": "1. In a pan, heat oil and add ginger paste and garlic paste.  2. Add chopped onions and cook until translucent.  3. Add chopped bell peppers and cook for 2-3 minutes.  4. Add paneer cubes, red chilli powder, cumin powder, coriander powder, garam masala, and salt. Mix well and cook for 5-7 minutes.  5. Preheat the oven to 200°C.  6. Spread tomato sauce on the pizza base.  7. Add the paneer tikka mixture on top of the sauce.  8. Sprinkle grated mozzarella cheese on top.  9. Bake the pizza for 10-12 minutes or until the cheese melts and the crust is golden brown.  10. Serve hot with your favorite toppings.",
         "rating": 4.6
       },
@@ -127,7 +116,6 @@
         "chefId": 3,
         "recipeImg": "https://www.indianveggiedelight.com/wp-content/uploads/2019/09/palak_paneer_paratha-2.jpg",
         "recipeName": "Palak Paneer Paratha",
-        "ingredients": ["2 cups whole wheat flour", "1 cup spinach, blanched and pureed", "1/2 cup paneer, grated", "1/4 tsp cumin powder", "1/4 tsp coriander powder", "1/4 tsp garam masala", "Salt to taste", "Oil for cooking"],
         "cookingMethod": "1. In a mixing bowl, combine the whole wheat flour, blanched spinach puree, grated paneer, cumin powder, coriander powder, garam masala, and salt. Knead into a smooth dough.  2. Divide the dough into equal-sized portions.  3. Roll each portion into a ball and flatten it with your palms.  4. Dust the flattened ball with some flour and roll it into a paratha.  5. Heat a tawa or griddle over medium heat.  6. Place the rolled paratha on the tawa and cook for 1-2 minutes on each side.  7. Add some oil on both sides and cook until golden brown.  8. Serve hot with raita or chutney of your choice.",
         "rating": 4.8
       },
@@ -138,20 +126,6 @@
         "chefId": 3,
         "recipeImg": "https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2020/09/Paneer-tikka-pizza-recipe-1.jpg",
         "recipeName": "Paneer Tikka Masala Pizza",
-        "ingredients": [
-          "1 pizza crust",
-          "1 cup paneer, cubed",
-          "1/2 cup tomato sauce",
-          "1/2 cup shredded mozzarella cheese",
-          "1/4 cup chopped cilantro",
-          "1 teaspoon cumin",
-          "1 teaspoon coriander",
-          "1/2 teaspoon garam masala",
-          "1/4 teaspoon turmeric",
-          "1/4 teaspoon cayenne pepper",
-          "Salt to taste",
-          "1 tablespoon olive oil"
-        ],
         "cookingMethod": "1. Preheat oven to 425°F. 2. Heat olive oil in a pan over medium heat. Add paneer cubes and sauté until golden brown, about 5 minutes. 3. In a small bowl, mix together cumin, coriander, garam masala, turmeric, cayenne pepper, and salt. 4. Spread tomato sauce over the pizza crust, leaving a small border around the edge. Sprinkle the spice mixture over the sauce. 5. Add the paneer cubes on top of the sauce. Sprinkle shredded mozzarella cheese over the paneer cubes. 6. Bake for 12-15 minutes, or until the crust is golden brown and the cheese is melted. 7. Top with chopped cilantro before serving.",
         "rating": 4.8
       },
@@ -161,18 +135,7 @@
         "category" : "popular",
         "chefId": 3,
         "recipeName": "Masala Dosa Quesadilla",
-        "ingredients": [
-          "1 cup dosa batter",
-          "1 tablespoon oil",
-          "1/2 teaspoon mustard seeds",
-          "1/2 teaspoon cumin seeds",
-          "1 onion, finely chopped",
-          "1/2 teaspoon turmeric powder",
-          "1/2 teaspoon red chili powder",
-          "1/2 cup shredded cheese",
-          "Salt to taste",
-          "2 flour tortillas"
-        ],
+
         "cookingMethod": "1. Heat a tablespoon of oil in a pan and add mustard seeds and cumin seeds. 2. Once the seeds start spluttering, add chopped onions and sauté till they turn translucent. 3. Add turmeric powder, red chili powder, and salt to taste. Mix well. 4. Add the dosa batter to the pan and spread it evenly. 5. Sprinkle shredded cheese on top and cover with a tortilla. 6. Cook until the cheese melts and the tortilla turns golden brown. 7. Flip the quesadilla and cook on the other side until crispy. 8. Serve hot with your favorite dipping sauce.",
         "recipeImg": "https://sangskitchen.b-cdn.net/wp-content/uploads/2021/03/Quesadilla.jpg",
         "rating": 4.5
@@ -180,21 +143,10 @@
       {
         "_id": 15,
         "price" : 21,
-        "category" : "mainCourse",
+        "category" : "recommended",
         "chefId": 3,
         "recipeName": "Kerala Fish Curry",
-        "ingredients": [
-          "500g fish",
-          "1 tablespoon coconut oil",
-          "1 onion, finely chopped",
-          "2 green chilies, slit",
-          "1 tomato, chopped",
-          "1/2 teaspoon turmeric powder",
-          "1 tablespoon red chili powder",
-          "1/2 cup grated coconut",
-          "Salt to taste",
-          "1 cup water"
-        ],
+
         "cookingMethod": "1. Heat coconut oil in a pan and add chopped onions and green chilies. Sauté till the onions turn translucent. 2. Add chopped tomatoes and cook until they turn mushy. 3. Add turmeric powder, red chili powder, and salt to taste. Mix well. 4. Add grated coconut and cook for a minute. 5. Add water and bring to a boil. 6. Add the fish and simmer for 10-15 minutes or until the fish is cooked through. 7. Serve hot with steamed rice.",
         "recipeImg": "https://mycookingcanvas.com/wp-content/uploads/2018/06/DSC_4263.jpg",
         "rating": 4.8
@@ -206,48 +158,18 @@
         "chefId": 4,
         "recipeImg": "https://www.feastingathome.com/wp-content/uploads/2019/03/Szechuan-Tofu-and-Veggies-105.jpg",
         "recipeName": "Spicy Szechuan Tofu",
-        "ingredients": [
-            "1 package firm tofu, drained and pressed",
-            "1/4 cup cornstarch",
-            "2 tablespoons vegetable oil",
-            "2 teaspoons minced garlic",
-            "1 tablespoon minced ginger",
-            "1/4 teaspoon crushed red pepper flakes",
-            "1/2 red bell pepper, sliced",
-            "1/2 green bell pepper, sliced",
-            "1/2 onion, sliced",
-            "1 tablespoon soy sauce",
-            "1 tablespoon hoisin sauce",
-            "1 tablespoon rice vinegar",
-            "1 tablespoon brown sugar",
-            "1/2 cup vegetable broth",
-            "1 teaspoon cornstarch mixed with 1 teaspoon water",
-            "2 green onions, sliced"
-        ],
+
         "cookingMethod": "1. Preheat the oven to 400°F. 2. Cut the tofu into cubes and toss with cornstarch to coat. 3. Heat oil in a large skillet over medium-high heat. 4. Add the garlic, ginger, and red pepper flakes and stir for 30 seconds. 5. Add the tofu to the skillet and cook until crispy, about 5-7 minutes. 6. Remove the tofu from the skillet and set aside. 7. Add the bell peppers and onion to the skillet and cook for 3-4 minutes. 8. In a small bowl, whisk together the soy sauce, hoisin sauce, rice vinegar, brown sugar, vegetable broth, and cornstarch mixture. 9. Pour the sauce into the skillet with the vegetables and bring to a boil. 10. Reduce heat and simmer for 2-3 minutes, until the sauce thickens. 11. Add the tofu back to the skillet and toss with the vegetables and sauce. 12. Transfer the mixture to a baking dish and bake for 10-12 minutes. 13. Top with sliced green onions before serving.",
         "rating": "4.8"
      },
      {
         "_id": 17,
         "price" : 20,
-        "category" : "mainCourse",
+        "category" : "recommended",
         "chefId": 4,
         "recipeImg": "https://cleanfoodcrush.com/wp-content/uploads/2019/05/CFC-Spicy-Chicken-Broccoli-Stir-Fry-.jpg",
         "recipeName": "Spicy Chicken and Broccoli Stir-Fry",
-        "ingredients": [
-          "1 lb boneless, skinless chicken breasts, sliced",
-          "2 cups broccoli florets",
-          "1 red bell pepper, sliced",
-          "1/2 cup sliced onion",
-          "3 cloves garlic, minced",
-          "1 tsp ginger paste",
-          "2 tbsp soy sauce",
-          "1 tbsp rice vinegar",
-          "1 tbsp honey",
-          "1/2 tsp red pepper flakes",
-          "2 tbsp vegetable oil",
-          "Salt and pepper to taste"
-        ],
+
         "cookingMethod": "1. In a small bowl, whisk together soy sauce, rice vinegar, honey, and red pepper flakes. Set aside. 2. Heat a large skillet over high heat. Add vegetable oil and swirl to coat. 3. Add sliced chicken and cook for 5-7 minutes until browned and cooked through. Remove from skillet and set aside. 4. Add broccoli, red bell pepper, and onion to the skillet. Cook for 3-5 minutes until vegetables are tender-crisp. 5. Add minced garlic and ginger paste to the skillet. Cook for 1-2 minutes until fragrant. 6. Add the cooked chicken back to the skillet. Pour the soy sauce mixture over the chicken and vegetables. 7. Stir-fry for 1-2 minutes until the sauce thickens and coats the chicken and vegetables. 8. Serve hot over rice.",
         "rating": 4.8
       },
@@ -258,41 +180,18 @@
         "chefId": 4,
         "recipeImg": "https://healthyfitnessmeals.com/wp-content/uploads/2021/09/Garlic-shrimp-pasta-7.jpg",
         "recipeName": "Garlic Shrimp Pasta",
-        "ingredients": [
-          "1 lb spaghetti",
-          "1 lb large shrimp, peeled and deveined",
-          "4 cloves garlic, minced",
-          "1/2 cup white wine",
-          "1/2 cup chicken broth",
-          "1/2 cup heavy cream",
-          "1/4 cup chopped fresh parsley",
-          "2 tbsp olive oil",
-          "Salt and pepper to taste"
-        ],
+
         "cookingMethod": "1. Cook spaghetti according to package instructions. Drain and set aside. 2. In a large skillet, heat olive oil over medium heat. Add minced garlic and cook for 1-2 minutes until fragrant. 3. Add shrimp to the skillet and cook for 2-3 minutes until pink and cooked through. Remove from skillet and set aside. 4. Add white wine and chicken broth to the skillet. Bring to a simmer and cook for 2-3 minutes until reduced by half. 5. Add heavy cream to the skillet and stir to combine. Cook for 2-3 minutes until the sauce thickens. 6. Add the cooked spaghetti and shrimp back to the skillet. Toss to coat with the sauce. 7. Season with salt and pepper to taste. 8. Serve hot, garnished with chopped parsley.",
         "rating": 4.9
       },
       {
         "_id": 19,
         "price" : 15,
-        "category" : "mainCourse",
+        "category" : "recommended",
         "chefId": 4,
         "recipeImg": "https://cdn.diys.com/wp-content/uploads/2016/01/Spicy-chicken-stir-fry-finished-wide4-720x720.jpg",
         "recipeName": "Spicy Chicken Stir-Fry",
-        "ingredients": [
-          "1 lb boneless, skinless chicken breast, sliced",
-          "2 bell peppers, sliced",
-          "1 onion, sliced",
-          "3 cloves garlic, minced",
-          "1 tbsp ginger, minced",
-          "1/4 cup soy sauce",
-          "2 tbsp oyster sauce",
-          "2 tbsp hoisin sauce",
-          "2 tbsp vegetable oil",
-          "2 tbsp cornstarch",
-          "1 tsp red pepper flakes",
-          "Salt and pepper to taste"
-        ],
+
         "cookingMethod": "1. In a small bowl, whisk together soy sauce, oyster sauce, hoisin sauce, cornstarch, and red pepper flakes. Set aside. 2. Heat vegetable oil in a wok or large skillet over high heat. Add chicken and cook for 3-4 minutes until browned on all sides. Remove chicken from the wok and set aside. 3. Add sliced bell peppers and onion to the wok. Cook for 2-3 minutes until slightly softened. 4. Add minced garlic and ginger to the wok. Cook for 1-2 minutes until fragrant. 5. Return chicken to the wok. Pour the sauce over the chicken and vegetables. Toss to coat everything in the sauce. 6. Cook for an additional 2-3 minutes until the sauce thickens and the chicken is cooked through. 7. Season with salt and pepper to taste. 8. Serve hot, garnished with chopped green onions or cilantro if desired.",
         "rating": 4.8
       },
@@ -303,16 +202,7 @@
         "chefId": 4,
         "recipeImg": "https://healthyfitnessmeals.com/wp-content/uploads/2022/01/Miso-Glazed-Salmon-4.jpg",
         "recipeName": "Miso Glazed Salmon",
-        "ingredients": [
-          "4 salmon fillets",
-          "1/4 cup white miso paste",
-          "1/4 cup mirin",
-          "2 tablespoons sake",
-          "2 tablespoons soy sauce",
-          "1 tablespoon honey",
-          "1 tablespoon grated ginger",
-          "2 cloves garlic, minced"
-        ],
+
         "cookingMethod": "1. Preheat oven to 400 degrees F (200 degrees C). 2. In a small bowl, whisk together miso paste, mirin, sake, soy sauce, honey, ginger, and garlic. 3. Place salmon fillets on a baking sheet lined with parchment paper. Brush the miso glaze generously over the top of the salmon. 4. Bake for 12-15 minutes, until the salmon is cooked through and flakes easily with a fork.",
         "rating": 4.5
       },
@@ -323,25 +213,7 @@
         "chefId": 5,
         "recipeImg": "https://hips.hearstapps.com/hmg-prod/images/delish-chicken-tikka-masala-jpg-1526059261.jpg?crop=0.8890666666666666xw:1xh;center,top&resize=1200:*",
         "recipeName": "Chicken Tikka Masala",
-        "ingredients": [
-          "1 lb boneless, skinless chicken breasts, cut into bite-sized pieces",
-          "1 cup plain yogurt",
-          "2 tablespoons lemon juice",
-          "2 teaspoons ground cumin",
-          "1 teaspoon ground cinnamon",
-          "1 teaspoon cayenne pepper",
-          "1 teaspoon ground ginger",
-          "1 tablespoon paprika",
-          "1 teaspoon salt",
-          "1 cup tomato sauce",
-          "1 cup heavy cream",
-          "2 tablespoons butter",
-          "1 onion, finely chopped",
-          "4 garlic cloves, minced",
-          "1 tablespoon grated fresh ginger",
-          "1 teaspoon garam masala",
-          "1/4 cup chopped fresh cilantro"
-        ],
+
         "cookingMethod": "1. In a large bowl, mix together the yogurt, lemon juice, cumin, cinnamon, cayenne, ginger, paprika, and salt. Add the chicken and toss to coat. Cover and refrigerate for at least 1 hour, or overnight. 2. Preheat the oven to 400°F (205°C). Thread the chicken pieces onto skewers and place on a baking sheet lined with parchment paper. Bake for 20-25 minutes, or until the chicken is cooked through. 3. In a large skillet, melt the butter over medium heat. Add the onion and garlic and sauté until softened, about 5 minutes. Add the grated ginger and garam masala and cook for another 1-2 minutes, stirring constantly. 4. Add the tomato sauce and heavy cream and stir to combine. Bring to a simmer and cook for 10-15 minutes, or until the sauce has thickened. 5. Add the cooked chicken to the skillet and stir to coat with the sauce. Simmer for another 5-10 minutes, or until heated through. 6. Serve hot, garnished with chopped cilantro.",
         "rating": 4.8
       },
@@ -352,24 +224,18 @@
         "chefId": 5,
         "recipeImg": "https://zestfulkitchen.com/wp-content/uploads/2018/10/quick-chana-masala-cover-1-of-1-scaled.jpg",
         "recipeName": "Chana Masala Stuffed Naan",
-        "ingredients": [
-          "For Naan: all-purpose flour, baking powder, salt, sugar, milk, yogurt, oil",
-          "For Chana Masala: chickpeas, onion, tomatoes"
-        ],
+
         "cookingMethod": "1. To make naan, combine all-purpose flour, baking powder, salt, sugar, milk, yogurt, and oil in a bowl. Knead the dough for 10-15 minutes and let it rest for 1 hour. 2. To make chana masala, heat oil in a pan and sauté onions until they turn translucent. Add tomatoes and cook until they turn mushy. 3. Add chickpeas and spices, and mix well. Cook for 10-15 minutes. 4. Take a small portion of the dough and roll it into a circle. Place a spoonful of chana masala in the center and seal the edges. 5. Preheat a skillet and cook the stuffed naan until golden brown on both sides. ",
         "rating": 4.8
       },
       {
         "_id": 23,
         "price" : 15,
-        "category" : "appetizer",
+        "category" : "recommended",
         "chefId": 5,
         "recipeImg": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Farrukh_Aziz_Ansari/Matar_Paneer_Kulcha.jpg",
         "recipeName": "Matar Paneer Kulcha",
-        "ingredients": [
-          "For Kulcha: all-purpose flour, baking powder, salt, sugar, milk, yogurt, oil",
-          "For Matar Paneer: green peas, paneer, onion, tomatoes"
-        ],
+
         "cookingMethod": "1. To make kulcha, combine all-purpose flour, baking powder, salt, sugar, milk, yogurt, and oil in a bowl. Knead the dough for 10-15 minutes and let it rest for 1 hour. 2. To make matar paneer, heat oil in a pan and sauté onions until they turn translucent. Add tomatoes and cook until they turn mushy. 3. Add green peas and paneer, and mix well. Cook for 10-15 minutes. 4. Take a small portion of the dough and roll it into a circle. Place a spoonful of matar paneer in the center and seal the edges. 5. Preheat a skillet and cook the stuffed kulcha until golden brown on both sides. ",
         "rating": 4.5
       },
@@ -380,19 +246,7 @@
         "chefId": 5,
         "recipeImg": "https://img.taste.com.au/gstVHIGD/taste/2016/11/tandoori-naan-pizzas-103985-1.jpeg",
         "recipeName": "Tandoori Chicken Naan Pizza",
-        "ingredients": [
-           "2 naan breads",
-           "1/2 cup tandoori chicken pieces",
-           "1/4 cup chopped onion",
-           "1/4 cup chopped tomato",
-           "1/2 cup shredded mozzarella cheese",
-           "1/4 cup chopped cilantro",
-           "1 tsp garam masala",
-           "1/2 tsp cumin powder",
-           "1/4 tsp red chili powder",
-           "Salt and pepper to taste",
-           "2 tbsp olive oil"
-        ],
+
         "cookingMethod": "1. Preheat oven to 375 degrees F. 2. Place naan bread on a baking sheet. 3. Brush olive oil over the top of the naan bread. 4. Mix together the garam masala, cumin powder, red chili powder, salt, and pepper in a small bowl. 5. Sprinkle the spice mixture over the naan bread. 6. Add the tandoori chicken, onion, and tomato over the naan bread. 7. Sprinkle the shredded mozzarella cheese over the top. 8. Bake for 15-20 minutes or until the cheese is melted and the naan bread is crispy. 9. Remove from the oven and sprinkle chopped cilantro over the top. 10. Cut into slices and serve hot.",
         "rating": 4.5
      },
@@ -403,19 +257,7 @@
         "chefId": 5,
         "recipeImg": "https://ministryofcurry.com/wp-content/uploads/2020/07/paneer-butter-masala_-2.jpg",
         "recipeName": "Paneer Makhani",
-        "ingredients": [
-           "250 grams paneer",
-           "2 tablespoons butter",
-           "1 large onion, finely chopped",
-           "1 tablespoon ginger-garlic paste",
-           "2 large tomatoes, pureed",
-           "1/2 cup heavy cream",
-           "1 teaspoon kasuri methi",
-           "1/2 teaspoon turmeric powder",
-           "1/2 teaspoon red chili powder",
-           "Salt to taste",
-           "1 tablespoon chopped coriander leaves"
-        ],
+
         "cookingMethod": [
            "Heat the butter in a pan.",
            "Add the chopped onions and ginger-garlic paste and sauté until the onions turn golden brown.",
@@ -435,24 +277,7 @@
         "chefId": 6,
         "recipeImg": "https://www.cookwithmanali.com/wp-content/uploads/2020/04/Punjabi-Kadhi-Pakora.jpg",
         "recipeName": "Punjabi Kadhi Pakoda",
-        "ingredients": [
-          "1 cup besan (gram flour)",
-          "1 cup dahi (yogurt)",
-          "1 onion, chopped",
-          "2-3 green chilies, chopped",
-          "1 tsp ginger paste",
-          "1 tsp garlic paste",
-          "1/2 tsp turmeric powder",
-          "1 tsp red chili powder",
-          "1 tsp cumin seeds",
-          "1 tsp mustard seeds",
-          "1/4 tsp asafoetida",
-          "1 tbsp oil",
-          "1/4 cup chopped coriander leaves",
-          "Salt to taste",
-          "Water as required",
-          "Oil for frying"
-        ],
+
         "cookingMethod": [
           "In a mixing bowl, add besan, salt, red chili powder, and turmeric powder. Mix well.",
           "Add water to make a thick batter. Whisk well to make a smooth batter.",
@@ -472,21 +297,7 @@
         "chefId": 6,
         "recipeImg": "https://static.toiimg.com/photo/53251884.cms",
         "recipeName": "Matar Paneer",
-        "ingredients": [
-          "1 cup paneer, cubed",
-          "1 cup green peas",
-          "2 medium onions, finely chopped",
-          "2 tomatoes, finely chopped",
-          "1 tsp ginger paste",
-          "1 tsp garlic paste",
-          "1 tsp cumin seeds",
-          "1 tsp coriander powder",
-          "1/2 tsp turmeric powder",
-          "1/2 tsp red chili powder",
-          "2 tbsp oil",
-          "1/2 cup water",
-          "Salt to taste"
-        ],
+
         "cookingMethod": "1. Heat oil in a pan and add cumin seeds. Once they splutter, add chopped onions and fry till golden brown. 2. Add ginger-garlic paste and fry for a minute. 3. Add chopped tomatoes, salt, and all the spices. Cook till tomatoes become soft and mushy. 4. Add green peas and cook for 3-4 minutes. 5. Add cubed paneer and mix well. Add 1/2 cup of water and cover the pan. Cook for 5-6 minutes on low flame till the gravy thickens. 6. Garnish with fresh coriander leaves and serve hot with rice or roti.",
         "rating": 4.5
       },
@@ -496,14 +307,7 @@
         "category" : "appetizer",
         "chefId": 6,
         "recipeName": "Tandoori Chicken Tikka Masala",
-        "ingredients": [
-          "500g boneless chicken, cut into small cubes",
-          "1/2 cup plain yogurt",
-          "2 tablespoons lemon juice",
-          "2 tablespoons ginger-garlic paste",
-          "1 teaspoon red chili powder",
-          "1 teaspoon cumin powder"
-        ],
+
         "cookingMethod": "1. In a mixing bowl, combine the yogurt, lemon juice, ginger-garlic paste, red chili powder, and cumin powder. Mix well. 2. Add the chicken cubes to the bowl and coat them evenly with the marinade. 3. Cover the bowl and refrigerate for at least 2 hours, or overnight. 4. Preheat the oven to 400°F (200°C). 5. Thread the chicken cubes onto skewers and place them on a baking sheet. 6. Bake the chicken in the oven for 15-20 minutes, or until cooked through. 7. Meanwhile, heat a large skillet over medium-high heat. Add the remaining marinade to the skillet and cook for 5-7 minutes, or until it thickens into a sauce. 8. Add the cooked chicken to the skillet and toss to coat it in the sauce. 9. Serve hot with rice or naan bread.",
         "rating": 4.5,
         "recipeImg": "https://www.foodandwine.com/thmb/ErNZTmhSUt3HiOwy4JujFiQM9co=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Tikka-Kebabs-FT-RECIPE0622-3c77b6c2efa04e1c946b320c6db30a91.jpg"
@@ -515,20 +319,7 @@
         "chefId": 6,
         "recipeName": "Paneer Jalfrezi",
         "recipeImg": "https://i0.wp.com/foodtrails25.com/wp-content/uploads/2021/06/Jalfrezi-Paneer.jpg?resize=720%2C960&ssl=1",
-        "ingredients": [
-          "200g paneer, cubed",
-          "1 large onion, sliced",
-          "1 large bell pepper, sliced",
-          "2 medium tomatoes, chopped",
-          "1 tbsp ginger-garlic paste",
-          "1 tsp cumin seeds",
-          "1 tsp coriander powder",
-          "1 tsp garam masala",
-          "1/2 tsp red chili powder",
-          "Salt to taste",
-          "2 tbsp oil",
-          "Fresh coriander leaves for garnishing"
-        ],
+
         "cookingMethod": [
           "Heat oil in a pan over medium heat.",
           "Add cumin seeds and allow them to crackle.",
@@ -549,22 +340,6 @@
         "chefId": 6,
         "recipeImg": "https://cookilicious.com/wp-content/uploads/2021/09/Mushroom-Masala-1.jpg",
         "recipeName": "Mushroom Masala",
-        "ingredients": [
-            "1 pound mushrooms, sliced",
-            "1 large onion, chopped",
-            "2-3 cloves garlic, minced",
-            "1 inch ginger, grated",
-            "1-2 green chilies, finely chopped",
-            "1 tsp cumin seeds",
-            "1 tsp coriander powder",
-            "1/2 tsp turmeric powder",
-            "1/2 tsp garam masala powder",
-            "1/4 cup tomato puree",
-            "1/2 cup water",
-            "1/4 cup cream",
-            "Salt to taste",
-            "2-3 tbsp oil"
-        ],
         "cookingMethod": "1. Heat oil in a pan and add cumin seeds. When they start to splutter, add onion and sauté until golden brown.  2. Add garlic, ginger and green chilies, and sauté for a minute.  3. Add coriander powder, turmeric powder and garam masala powder, and sauté for a minute.  4. Add tomato puree and water, and mix well.  5. Add sliced mushrooms and salt to taste. Mix well, cover and cook on low heat for 10-12 minutes, or until the mushrooms are cooked.  6. Add cream and mix well. Cook for another minute.  7. Garnish with fresh coriander leaves and serve hot with rice or naan.",
         "rating": 4.8
     }
