@@ -5,6 +5,9 @@ import { Helmet } from 'react-helmet-async';
 import Offered from './Offered/Offered';
 import Pizzas from './Pizzas/Pizzas';
 import Salad from './Salad/Salad';
+import Soup from './Soup/Soup';
+import Appetizer from './Appetizer/Appetizer';
+import MainCourse from './MainCourse/MainCourse';
 
 const OurMenu = () => {
     return (
@@ -21,6 +24,9 @@ const OurMenu = () => {
             <Offered />
             <Pizzas />
             <Salad />
+            <Soup />
+            <Appetizer />
+            <MainCourse />
         </section>
     );
 };
