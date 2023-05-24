@@ -4,6 +4,7 @@ import OrderSlider from '../OrderSlider/OrderSlider';
 import BistroBoss from '../BistroBoss/BistroBoss';
 import FromMenu from '../FromMenu/FromMenu';
 import Featured from '../Featured/Featured';
+import Testimonial from '../Testimonial/Tesimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <BistroBoss />
             <FromMenu />
             <Featured />
+            <Testimonial />
         </section>
     );
 };
