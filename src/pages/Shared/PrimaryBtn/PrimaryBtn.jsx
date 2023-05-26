@@ -1,10 +1,12 @@
 import React from 'react';
-
-const PrimaryBtn = ({btnTitle}) => {
+import {Link} from "react-router-dom"
+const PrimaryBtn = ({ btnTitle,category }) => {
     return (
-        <div className='mt-10 text-center'>
-        <button className='px-3 py-1 border-b-2 border-black rounded-lg uppercase text-sm font-medium hover:bg-black hover:text-white'>{btnTitle}</button>
-    </div>
+        <div className='text-center'>
+            <Link to={`/shop/${category}`} className='mt-10'>
+            <button className='px-3 py-1 border-b-2 border-black rounded-lg uppercase text-sm font-medium hover:bg-black hover:text-white'>{btnTitle}</button>
+        </Link>
+        </div>
     );
 };
 

@@ -3,17 +3,10 @@ import PageBanner from '../../Shared/PageBanner/PageBanner';
 import banner from "../../../assets/menu/salad-bg.jpg";
 import PrimaryBtn from '../../Shared/PrimaryBtn/PrimaryBtn';
 import MenuCard from '../../Shared/MenuCard/MenuCard';
+import useMenu from '../../../Hooks/useMenu';
 const Salad = () => {
-    const[salads, setSalads] = useState([]);
-
-    useEffect(()=>{
-        fetch("menu.json")
-        .then(res=>res.json())
-        .then(data=>{
-            const saladMenu = data.filter(salad=>salad.category == "salad")
-            setSalads(saladMenu)
-        })
-    },[])
+    const[menu] = useMenu();
+    const saladMenu = menu.filter(mainMenu=>mainMenu.category == "salad");
     return (
 <section className='my-10'>
             <PageBanner
@@ -27,7 +20,7 @@ const Salad = () => {
 <div className='flex items-center justify-center my-10 px-2 lg:px-5'>
 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
 {
-    salads.map(menu=><MenuCard
+    saladMenu.map(menu=><MenuCard
     key={menu._id}
     menu={menu}
     ></MenuCard>)
@@ -37,6 +30,7 @@ const Salad = () => {
 
             <PrimaryBtn
 btnTitle="ORDER YOUR FAVOURITE FOOD"
+category="salad"
 ></PrimaryBtn>             
         </section>
     );

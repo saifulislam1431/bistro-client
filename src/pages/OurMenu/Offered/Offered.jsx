@@ -2,17 +2,11 @@ import React, { useEffect, useState } from 'react';
 import SectionComponent from '../../Shared/SectionComponent/SectionComponent';
 import MenuCard from '../../Shared/MenuCard/MenuCard';
 import PrimaryBtn from '../../Shared/PrimaryBtn/PrimaryBtn';
+import useMenu from '../../../Hooks/useMenu';
 
 const Offered = () => {
-    const [offer, setOfferMenu] = useState([]);
-    useEffect(() => {
-        fetch("menu.json")
-            .then(res => res.json())
-            .then(data => {
-                const offeredMenu = data.filter(offered => offered.category == "offered")
-                setOfferMenu(offeredMenu)
-            })
-    })
+    const[menu] = useMenu();
+    const offerMenu = menu.filter(mainMenu=>mainMenu.category == "offered");
     return (
         <section className='my-14'>
             <SectionComponent
@@ -24,7 +18,7 @@ const Offered = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     {
-                        offer.map(menu => <MenuCard
+                        offerMenu.map(menu => <MenuCard
                             key={menu._id}
                             menu={menu}
                         ></MenuCard>)

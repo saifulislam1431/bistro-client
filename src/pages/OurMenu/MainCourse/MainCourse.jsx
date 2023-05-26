@@ -3,18 +3,11 @@ import banner from "../../../assets/menu/mainCourse.jpg";
 import PrimaryBtn from '../../Shared/PrimaryBtn/PrimaryBtn';
 import MenuCard from '../../Shared/MenuCard/MenuCard';
 import PageBanner from '../../Shared/PageBanner/PageBanner';
+import useMenu from '../../../Hooks/useMenu';
 
 const MainCourse = () => {
-    const[mainCourse, setMainCourse] = useState([]);
-
-    useEffect(()=>{
-        fetch("menu.json")
-        .then(res=>res.json())
-        .then(data=>{
-            const mainCourseMenu = data.filter(mainMenu=>mainMenu.category == "mainCourse")
-            setMainCourse(mainCourseMenu)
-        })
-    },[])
+    const[menu] = useMenu();
+    const mainCourseMenu = menu.filter(mainMenu=>mainMenu.category == "mainCourse");
     return (
 <section className='my-10'>
             <PageBanner
@@ -28,7 +21,7 @@ const MainCourse = () => {
 <div className='flex items-center justify-center my-10 px-2 lg:px-5'>
 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
 {
-    mainCourse.map(menu=><MenuCard
+    mainCourseMenu.map(menu=><MenuCard
     key={menu._id}
     menu={menu}
     ></MenuCard>)
@@ -38,6 +31,7 @@ const MainCourse = () => {
 
             <PrimaryBtn
 btnTitle="ORDER YOUR FAVOURITE FOOD"
+category="mainCourse"
 ></PrimaryBtn>             
         </section>
     );

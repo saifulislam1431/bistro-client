@@ -3,17 +3,10 @@ import PageBanner from '../../Shared/PageBanner/PageBanner';
 import banner from "../../../assets/menu/pizza-bg.jpg";
 import PrimaryBtn from '../../Shared/PrimaryBtn/PrimaryBtn';
 import MenuCard from '../../Shared/MenuCard/MenuCard';
+import useMenu from '../../../Hooks/useMenu';
 const Pizzas = () => {
-    const[pizzas, setPizza] = useState([]);
-
-    useEffect(()=>{
-        fetch("menu.json")
-        .then(res=>res.json())
-        .then(data=>{
-            const pizzaMenu = data.filter(pizza=>pizza.category == "pizza")
-            setPizza(pizzaMenu)
-        })
-    },[])
+    const[menu] = useMenu();
+    const pizzaMenu = menu.filter(mainMenu=>mainMenu.category == "pizza");
     return (
         <section>
             <PageBanner
@@ -27,7 +20,7 @@ const Pizzas = () => {
 <div className='flex items-center justify-center my-10 px-2 lg:px-5'>
 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
 {
-    pizzas.map(menu=><MenuCard
+    pizzaMenu.map(menu=><MenuCard
     key={menu._id}
     menu={menu}
     ></MenuCard>)
@@ -37,6 +30,7 @@ const Pizzas = () => {
 
             <PrimaryBtn
 btnTitle="ORDER YOUR FAVOURITE FOOD"
+category="pizza"
 ></PrimaryBtn>             
         </section>
     );
