@@ -1,10 +1,33 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import profile from "../../../assets/icon/user.png";
 import cart from "../../../assets/icon/trolley.png";
 import logo from "../../../assets/logo.png"
-
+import { UserAuth } from '../../../Auth/Auth';
+import { FaSignOutAlt } from "react-icons/fa";
+import Swal from 'sweetalert2';
 const Navbar = () => {
+  const { user, logOut } = useContext(UserAuth);
+  const handleOut = ()=>{
+    logOut()
+    .then(()=>{
+      Swal.fire({
+        title: 'Success!',
+        text: 'Sign Out Successfully',
+        icon: 'success',
+        confirmButtonText: 'Cool'
+      })
+    })
+    .catch(error=>{
+      const message = error.message;
+      Swal.fire({
+        title: 'Error!',
+        text: message,
+        icon: 'error',
+        confirmButtonText: 'Cool'
+      })
+    })
+  }
   const navItems = <>
     <li>
       <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "default")}>Home</NavLink>
@@ -23,14 +46,19 @@ const Navbar = () => {
       <NavLink to="/cart" className=" px-0 py-0 mr-2"><img src={cart} alt="Cart" className='w-[30px]' /></NavLink>
     </li>
 
-    <li>
-      <NavLink to="/login" className={({ isActive }) => (isActive ? "active" : "default")}>Sign In</NavLink>
-    </li>
+    {
+      user ? <li>
+        <span className='default' onClick={handleOut}>Sign Out <FaSignOutAlt /></span>
+      </li>
+        : <li>
+          <NavLink to="/login" className={({ isActive }) => (isActive ? "active" : "default")}>Sign In</NavLink>
+        </li>
+    }
   </>
   return (
     <div className="navbar bg-black bg-opacity-50 fixed z-10 max-w-screen-xl">
       <div className='navbar-start lg:hidden'>
-      <Link to="/">
+        <Link to="/">
           <p className='text-white brandTitle'><span className='font-black'>BISTRO BOSS</span><br /> <span className='tracking-widest'>Restaurant</span></p>
         </Link>
       </div>
