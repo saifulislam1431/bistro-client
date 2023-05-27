@@ -1,15 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useContext, useEffect, useRef, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import banner from "../../assets/others/authentication.png"
 import heroImg from "../../assets/others/authentication2.png"
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
-import { FaGoogle , FaFacebook , FaGithub } from "react-icons/fa";
+import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
 import { Helmet } from 'react-helmet-async';
+import { UserAuth } from '../../Auth/Auth';
+import Swal from 'sweetalert2';
 
 const Login = () => {
     const location = useLocation();
+    const [error, setError] = useState("")
     const [disabled, setDisabled] = useState(true);
-
+    const { signIn, updateUser, googleLog, facebookLog, githubLog } = useContext(UserAuth);
+    const navigate = useNavigate()
+    let from = location.state?.from?.pathname || "/";
     const captchaRef = useRef();
 
     const handleValidate = () => {
@@ -29,7 +34,79 @@ const Login = () => {
 
     const handleLogin = e => {
         e.preventDefault();
-        console.log("Click");
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        signIn(email, password)
+        .then(res => {
+            const loggedUser = res.user;
+            navigate(from, { replace: true })
+            Swal.fire({
+                title: 'Success!',
+                text: 'Sign In Successful',
+                icon: 'success',
+                confirmButtonText: 'Cool'
+            })
+           
+            form.reset();
+            setError("")
+        })
+        .catch(error => {
+            const message = error.message;
+            Swal.fire({
+                title: 'Error!',
+                text: message,
+                icon: 'error',
+                confirmButtonText: 'Cool'
+            })
+        })
+    }
+
+    const handleGoogleIn = () => {
+        googleLog()
+            .then(res => {
+                const loggedUser = res.user;
+                navigate(from, { replace: true })
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Sign In Successful',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                })
+            })
+            .catch(error => {
+                const message = error.message;
+                Swal.fire({
+                    title: 'Error!',
+                    text: message,
+                    icon: 'error',
+                    confirmButtonText: 'Cool'
+                })
+            })
+    }
+
+    const handleGithubIn = () => {
+        githubLog()
+            .then(res => {
+                const loggedUser = res.user;
+                navigate(from, { replace: true })
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Sign In Successful',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                })
+            })
+            .catch(error => {
+                const message = error.message;
+                Swal.fire({
+                    title: 'Error!',
+                    text: message,
+                    icon: 'error',
+                    confirmButtonText: 'Cool'
+                })
+            })
     }
 
     return (
@@ -62,8 +139,8 @@ const Login = () => {
                     <p className='text-center'>Or sign in with</p>
                     <div className='text-center my-3 space-x-5'>
 <button><FaFacebook className='w-10 h-8' /></button>
-<button><FaGoogle className='w-10 h-8' /></button>
-<button><FaGithub className='w-10 h-8' /></button>
+<button onClick={handleGoogleIn}><FaGoogle className='w-10 h-8' /></button>
+<button onClick={handleGithubIn}><FaGithub className='w-10 h-8' /></button>
                     </div>
                 </div>
             </div>
