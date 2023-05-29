@@ -2,12 +2,14 @@ import React, { useContext } from 'react';
 import { UserAuth } from '../../../Auth/Auth';
 import Swal from 'sweetalert2';
 import { useLocation, useNavigate } from 'react-router-dom';
+import useCart from '../../../Hooks/useCart';
 
 const RecommendedCard = ({recommendedMenu}) => {
     const{cookingMethod,recipeName,recipeImg}= recommendedMenu;
     const {user} = useContext(UserAuth);
     const navigate = useNavigate();
     const location = useLocation();
+    const [ , refetch] = useCart();
 
 
     const handleCart=(item)=>{
@@ -21,7 +23,7 @@ const RecommendedCard = ({recommendedMenu}) => {
         userName : user.displayName
         
       }
-      if(user){
+      if(user && user?.email){
         fetch("http://localhost:5000/carts",{
           method:"POST",
           headers:{
@@ -32,6 +34,7 @@ const RecommendedCard = ({recommendedMenu}) => {
         .then(res=>res.json())
         .then(data=>{
           if(data.insertedId){
+            refetch();
             Swal.fire({
               title: 'Success!',
               text: 'Item added successfully',
