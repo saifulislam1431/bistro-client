@@ -14,9 +14,18 @@ body{
   @apply bg-transparent py-0 px-0 ml-4 text-white font-medium uppercase text-sm my-2 lg:my-0
 }
 
+.dash-default{
+  @apply bg-transparent py-0 px-0 ml-4 text-neutral font-medium uppercase text-sm my-2 lg:my-0
+}
+
 .active{
   @apply bg-transparent py-0 px-0 ml-4 text-[#EEFF25] font-medium uppercase text-sm my-2 lg:my-0
 }
+
+.dash-active{
+  @apply bg-transparent py-0 px-0 ml-4 text-white font-medium uppercase text-sm my-2 lg:my-0
+}
+
 .myBtn{
   @apply mt-3 w-full lg:w-96 font-semibold text-lg py-2 bg-[#D1A054] rounded-md text-white cursor-pointer disabled:opacity-30
 }

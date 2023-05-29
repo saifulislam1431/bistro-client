@@ -4,6 +4,7 @@ import { UserAuth } from '../Auth/Auth';
 
 const useCart = () => {
     const {user} = useContext(UserAuth);
+
     const { refetch , data: cart = [] } = useQuery({
         queryKey: ['carts' , user?.email ],
         queryFn: async ()=>{
@@ -12,11 +13,7 @@ const useCart = () => {
         }
       })
 
-    //   useEffect(() => {
-    //     if(user){
-    //         refetch();
-    //     }
-    //   }, [user]);
+
 
       return [cart, refetch ]
 };
