@@ -11,7 +11,7 @@ const Dashboard = () => {
             </Helmet>
             <div className="drawer drawer-mobile ">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col items-center justify-center">
+            <div className="drawer-content flex flex-col items-center">
                 <Outlet></Outlet>
                 <label className="drawer-button lg:hidden absolute top-2 left-2" htmlFor="my-drawer-2">
                     <HiBars3BottomLeft className='w-10 h-8 text-primary' />
@@ -27,7 +27,7 @@ const Dashboard = () => {
                     </Link>
 
                     <li>
-                        <NavLink to="/dashboard" className={({ isActive }) => (isActive ? "dash-active" : "dash-default")}><HiHome className='w-7 h-5'/> Home</NavLink>
+                        <NavLink to="/dashboard/home" className={({ isActive }) => (isActive ? "dash-active" : "dash-default")}><HiHome className='w-7 h-5'/> Home</NavLink>
                     </li>
 
                     <li>
