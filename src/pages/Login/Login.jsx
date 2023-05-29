@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import banner from "../../assets/others/authentication.png"
 import heroImg from "../../assets/others/authentication2.png"
-import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
+import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-simple-captcha';
 import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
 import { Helmet } from 'react-helmet-async';
 import { UserAuth } from '../../Auth/Auth';
