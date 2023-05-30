@@ -38,10 +38,10 @@ const Auth = ({ children }) => {
     }
 
 
-    const updateUser = (loggedUser ,name ) =>{
+    const updateUser = (loggedUser ,name , photo ) =>{
         setLoading(true)
         return updateProfile(loggedUser, {
-            displayName : name
+            displayName : name , photoURL : photo
         })
     }
 

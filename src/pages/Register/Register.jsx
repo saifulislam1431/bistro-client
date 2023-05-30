@@ -7,6 +7,7 @@ import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
 import { Helmet } from 'react-helmet-async';
 import { UserAuth } from '../../Auth/Auth';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Register = () => {
     const location = useLocation();
@@ -39,6 +40,7 @@ const Register = () => {
         const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
+const photo = form.photo.value;
 
         if (!/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/.test(password)) {
             return setError("Password must be minimum eight characters, at least one letter, one number and one special character")
@@ -47,16 +49,32 @@ const Register = () => {
         signUp(email, password)
             .then(res => {
                 const loggedUser = res.user;
-                navigate(from, { replace: true })
-                Swal.fire({
-                    title: 'Success!',
-                    text: 'Registration Successful',
-                    icon: 'success',
-                    confirmButtonText: 'Cool'
-                })
-                updateUser(loggedUser, name)
+                updateUser(loggedUser, name, photo)
                     .then(() => {
-                        console.log("Update");
+                        const newUser ={
+                            name,
+                            email: loggedUser.email,
+                            photo
+                        }
+                        fetch("http://localhost:5000/users",{
+                            method:"POST",
+                            headers:{
+                                "content-type" : "application/json"
+                            },
+                            body: JSON.stringify(newUser)
+                        })
+                        .then(res=>res.json())
+                        .then(data=>{
+                            if(data.insertedId){
+                                navigate(from, { replace: true })
+                                Swal.fire({
+                                    title: 'Success!',
+                                    text: 'Registration Successful',
+                                    icon: 'success',
+                                    confirmButtonText: 'Cool'
+                                })
+                            }
+                        })
                     })
                     .catch(error => {
                         const message = error.message;
@@ -81,51 +99,7 @@ const Register = () => {
             })
 
     }
-    const handleGoogleIn = () => {
-        googleLog()
-            .then(res => {
-                const loggedUser = res.user;
-                navigate(from, { replace: true })
-                Swal.fire({
-                    title: 'Success!',
-                    text: 'Registration Successful',
-                    icon: 'success',
-                    confirmButtonText: 'Cool'
-                })
-            })
-            .catch(error => {
-                const message = error.message;
-                Swal.fire({
-                    title: 'Error!',
-                    text: message,
-                    icon: 'error',
-                    confirmButtonText: 'Cool'
-                })
-            })
-    }
 
-    const handleGithubIn = () => {
-        githubLog()
-            .then(res => {
-                const loggedUser = res.user;
-                navigate(from, { replace: true })
-                Swal.fire({
-                    title: 'Success!',
-                    text: 'Registration Successful',
-                    icon: 'success',
-                    confirmButtonText: 'Cool'
-                })
-            })
-            .catch(error => {
-                const message = error.message;
-                Swal.fire({
-                    title: 'Error!',
-                    text: message,
-                    icon: 'error',
-                    confirmButtonText: 'Cool'
-                })
-            })
-    }
     return (
         <>
             <Helmet>
@@ -147,6 +121,9 @@ const Register = () => {
                             <input type="email" name="email" placeholder='Type Here' className='inputField' />
                             <label>Password</label>
                             <input type="password" name="password" placeholder='Enter your password' className='inputField' />
+                            <label>Photo</label>
+                            <input type="url" name="photo" placeholder='Enter URL' className='inputField' />
+
                             <p className='my-2 text-red-600 font-medium w-full  lg:w-96'>{error}</p>
 
                             <div>
@@ -159,12 +136,7 @@ const Register = () => {
                             <input disabled={disabled} type="submit" value="Sign Up" className='myBtn' />
                         </form>
                         <p className='my-3 text-center text-[#D1A054]'>Already registered? <Link to="/login" className='font-semibold'> Go to log in</Link></p>
-                        <p className='text-center'>Or sign Up with</p>
-                        <div className='text-center my-3 space-x-5'>
-                            <button><FaFacebook className='w-10 h-8' /></button>
-                            <button onClick={handleGoogleIn}><FaGoogle className='w-10 h-8' /></button>
-                            <button onClick={handleGithubIn}><FaGithub className='w-10 h-8' /></button>
-                        </div>
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </section>

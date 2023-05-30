@@ -50,7 +50,7 @@ const Navbar = () => {
     <NavLink to="/shop" className={({ isActive }) => (isActive ? "active" : "default")}>Our shop</NavLink>
   </li>
   <li>
-  <NavLink to="/cart" className=" px-0 py-0 mr-2">
+  <NavLink to="/dashboard/myCart" className=" px-0 py-0 mr-2">
     <img src={shopLogo} alt="Shop" className='w-[30px] ml-2'/>
     <div className="badge badge-xl absolute badge-secondary left-7 top-3 font-bold">{cart?.length}</div>
   </NavLink>

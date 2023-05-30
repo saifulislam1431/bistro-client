@@ -7,6 +7,7 @@ import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
 import { Helmet } from 'react-helmet-async';
 import { UserAuth } from '../../Auth/Auth';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
     const location = useLocation();
@@ -136,12 +137,7 @@ const Login = () => {
                         <input disabled={disabled} type="submit" value="Sign In" className='myBtn' />
                     </form>
                     <p className='my-3 text-center text-[#D1A054]'>New here? <Link to="/register" className='font-semibold'>Create a New Account</Link></p>
-                    <p className='text-center'>Or sign in with</p>
-                    <div className='text-center my-3 space-x-5'>
-<button><FaFacebook className='w-10 h-8' /></button>
-<button onClick={handleGoogleIn}><FaGoogle className='w-10 h-8' /></button>
-<button onClick={handleGithubIn}><FaGithub className='w-10 h-8' /></button>
-                    </div>
+                   <SocialLogin></SocialLogin>
                 </div>
             </div>
         </section>
