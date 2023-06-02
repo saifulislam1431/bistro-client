@@ -4,11 +4,11 @@ import { UserAuth } from '../Auth/Auth';
 import Loading from '../pages/Loading/Loading';
 import Swal from 'sweetalert2';
 
-const PrivateRoute = ({Children}) => {
+const PrivateRoute = ({children}) => {
     const location = useLocation();
     const {user , loading} = useContext(UserAuth);
     if(user){
-        return Children
+        return children;
     }
     if(loading){
         return <Loading></Loading>

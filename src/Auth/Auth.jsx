@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { FacebookAuthProvider, GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { app } from '../firebase/firebase.config';
+import axios from 'axios';
 
 const auth = getAuth(app);
 export const UserAuth = createContext(null);
@@ -22,30 +23,30 @@ const Auth = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
-    const googleLog = ()=>{
+    const googleLog = () => {
         setLoading(true)
-        return signInWithPopup(auth , googleProvider)
+        return signInWithPopup(auth, googleProvider)
     }
 
-    const facebookLog = ()=>{
+    const facebookLog = () => {
         setLoading(true)
-        return signInWithPopup(auth , facebookProvider)
+        return signInWithPopup(auth, facebookProvider)
     }
 
-    const githubLog = ()=>{
+    const githubLog = () => {
         setLoading(true)
-        return signInWithPopup(auth , githubProvider)
+        return signInWithPopup(auth, githubProvider)
     }
 
 
-    const updateUser = (loggedUser ,name , photo ) =>{
+    const updateUser = (loggedUser, name, photo) => {
         setLoading(true)
         return updateProfile(loggedUser, {
-            displayName : name , photoURL : photo
+            displayName: name, photoURL: photo
         })
     }
 
-    const logOut = ()=>{
+    const logOut = () => {
         return signOut(auth)
     }
 
@@ -53,7 +54,19 @@ const Auth = ({ children }) => {
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, currentUser => {
             setUser(currentUser)
-            setLoading(false)
+
+            if (currentUser) {
+                // const email= currentUser.email;
+                axios.post("http://localhost:5000/jwt", {
+                    email: currentUser.email
+                }).then(data => {
+                    // console.log(data.data.token);
+                    localStorage.setItem("access-token", data.data.token)
+                    setLoading(false)
+                })
+            }else{
+                localStorage.removeItem("access-token")
+            }
         })
         return () => unsubscribe();
     }, [])

@@ -13,19 +13,19 @@ const SocialLogin = () => {
         googleLog()
             .then(res => {
                 const loggedUser = res.user;
-                const newUser ={
-                    name : loggedUser.displayName,
-                    email : loggedUser.email,
-                    photo : loggedUser.photoURL
+                const newUser = {
+                    name: loggedUser.displayName,
+                    email: loggedUser.email,
+                    photo: loggedUser.photoURL
                 }
                 fetch("http://localhost:5000/users",
-                {
-                    method:"POST",
-                    headers:{
-                        "content-type" : "application/json"
-                    },
-                    body: JSON.stringify(newUser)
-                })
+                    {
+                        method: "POST",
+                        headers: {
+                            "content-type": "application/json"
+                        },
+                        body: JSON.stringify(newUser)
+                    })
                     .then(res => res.json())
                     .then(() => {
                         navigate(from, { replace: true })
@@ -50,41 +50,41 @@ const SocialLogin = () => {
 
     const handleGithubIn = () => {
         githubLog()
-        .then(res => {
-            const loggedUser = res.user;
-            const newUser ={
-                name : loggedUser.displayName,
-                email : loggedUser.email,
-                photo : loggedUser.photoURL
-            }
-            fetch("http://localhost:5000/users",
-            {
-                method:"POST",
-                headers:{
-                    "content-type" : "application/json"
-                },
-                body: JSON.stringify(newUser)
-            })
-                .then(res => res.json())
-                .then(() => {
-                    navigate(from, { replace: true })
-                    Swal.fire({
-                        title: 'Success!',
-                        text: 'Registration Successful',
-                        icon: 'success',
-                        confirmButtonText: 'Cool'
+            .then(res => {
+                const loggedUser = res.user;
+                const newUser = {
+                    name: loggedUser.displayName,
+                    email: loggedUser.email,
+                    photo: loggedUser.photoURL
+                }
+                fetch("http://localhost:5000/users",
+                    {
+                        method: "POST",
+                        headers: {
+                            "content-type": "application/json"
+                        },
+                        body: JSON.stringify(newUser)
                     })
-                })
-        })
-        .catch(error => {
-            const message = error.message;
-            Swal.fire({
-                title: 'Error!',
-                text: message,
-                icon: 'error',
-                confirmButtonText: 'Cool'
+                    .then(res => res.json())
+                    .then(() => {
+                        navigate(from, { replace: true })
+                        Swal.fire({
+                            title: 'Success!',
+                            text: 'Registration Successful',
+                            icon: 'success',
+                            confirmButtonText: 'Cool'
+                        })
+                    })
             })
-        })
+            .catch(error => {
+                const message = error.message;
+                Swal.fire({
+                    title: 'Error!',
+                    text: message,
+                    icon: 'error',
+                    confirmButtonText: 'Cool'
+                })
+            })
     }
     return (
         <div className='mt-4'>
