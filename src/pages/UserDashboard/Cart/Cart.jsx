@@ -4,6 +4,7 @@ import SectionComponent from '../../Shared/SectionComponent/SectionComponent';
 import useCart from '../../../Hooks/useCart';
 import { FaTrashAlt } from 'react-icons/fa';
 import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
     const [cart, refetch] = useCart();
@@ -54,7 +55,7 @@ const Cart = () => {
                 <div className='my-7 w-full flex flex-col md:flex-row items-center justify-evenly gap-3 md:gap-5 lg:gap-20 uppercase font-bold text-lg brandTitle'>
                     <h1>Total orders: {cart.length}</h1>
                     <h1>total price: $ {total}</h1>
-                    <button className='px-4 py-1 rounded-md bg-[#D1A054] text-white'>Pay</button>
+                    <Link to="/dashboard/payment"><button className='px-4 py-1 rounded-md bg-[#D1A054] text-white'>Pay</button></Link>
                 </div>
 
                 <div>
