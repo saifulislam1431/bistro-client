@@ -13,8 +13,9 @@ const RecommendedCard = ({recommendedMenu}) => {
 
 
     const handleCart=(item)=>{
-      const{recipeName,recipeImg,price,category}= item;
+      const{recipeName,recipeImg,price,category,_id}= item;
       const addedItem = {
+        menuId: _id,
         recipeName,
         recipeImg,
         price,
