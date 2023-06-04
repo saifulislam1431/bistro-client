@@ -5,10 +5,12 @@ import { FaSignOutAlt } from "react-icons/fa";
 import Swal from 'sweetalert2';
 import useCart from '../../../Hooks/useCart';
 import shopLogo from "../../../assets/icon/trolley.png";
+import useAdmin from '../../../Hooks/useAdmin';
 
 const Navbar = () => {
   const { user, logOut } = useContext(UserAuth);
   const [cart] = useCart();
+  const{isAdmin} = useAdmin();
 
 
   const handleOut = () => {
@@ -41,7 +43,7 @@ const Navbar = () => {
     <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "default")}>contact us</NavLink>
   </li>
   <li>
-    <NavLink to="/dashboard" className={({ isActive }) => (isActive ? "active" : "default")}>Dashboard</NavLink>
+    <NavLink to={`${isAdmin ? "/dashboard/adminHome" : "/dashboard/home"}`}className={({ isActive }) => (isActive ? "active" : "default")}>Dashboard</NavLink>
   </li>
   <li>
     <NavLink to="/menu" className={({ isActive }) => (isActive ? "active" : "default")}>Our Menu</NavLink>
